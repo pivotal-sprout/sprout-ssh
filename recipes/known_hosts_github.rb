@@ -1,7 +1,7 @@
 include_recipe 'sprout-ssh::known_hosts'
 
 execute 'add github to knownhosts' do
-  user node['current_user']
+  user node['sprout']['user']
   cwd "#{node['sprout']['home']}/.ssh"
   # rubocop:disable LineLength
   command <<-SH
