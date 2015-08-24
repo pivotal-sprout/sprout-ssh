@@ -1,6 +1,6 @@
 name             'sprout-ssh'
 maintainer       'Pivotal'
-maintainer_email 'sprout-maintainers@pivotallabs.com'
+maintainer_email 'sprout-maintainers@googlegroups.com'
 license          'MIT'
 description      'Cookbook to configure ssh on an OS X developer workstation'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
